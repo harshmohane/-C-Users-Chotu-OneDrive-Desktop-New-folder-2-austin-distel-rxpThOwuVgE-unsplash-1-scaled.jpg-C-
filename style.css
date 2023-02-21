@@ -1,0 +1,1045 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+  
+}
+.main > .page{
+    width: 100vw;
+    height: 95%;
+    background-color: rgba(0, 78, 78, 0.995);
+}
+
+ .main > .page > nav > ul {
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 45vmax;
+    list-style: none;
+    gap: 3vmax;
+    font-size: 1.3vmax;
+    position: fixed;
+    z-index: 99;
+
+ }
+.main > .page > nav > ul>  img {
+    width: 8vmax;
+    margin-top: 0.2px;
+    position: relative;
+    margin-left: -75vmax;
+}
+.main > .page > nav > ul> button  {
+    padding: 6px;
+    width: 10vmax;
+    height: 3vmax;
+    border-radius: 10px;
+   background-color: rgb(255, 123, 0);
+   border: none;
+   color: #fff;
+   font-size: 1.2vmax;
+   margin-left:65vmax;
+   font-family: "cambria Math";
+}
+.main > .page > nav > ul> :hover {
+    background-color:rgb(255, 191, 0);
+}
+.main > .page > .page2 > h1{
+    font-size: 4.5vmax;
+    color: #fff;
+    font-family: "Arial";
+    padding-top: 12vmax;
+    margin-left: 13vmax;
+    font-weight: 600;
+
+}
+.main > .page > .page2 > h2{
+    font-size: 5vmax;
+    font-family: "Arial";
+    color: rgb(255, 128, 0);
+    padding-left: 13vmax;
+    font-weight: 700;
+}
+.main > .page > .page2 > p{
+    font-size: 1.2vmax;
+    font-family: "Cambria Math";
+    margin-left: 13vmax;
+    color: rgba(255, 255, 255, 0.256);
+    margin-top: 1.2vmax;
+}
+.main > .page > .page2 > .left3 > button{
+    padding: 6px;
+    width: 10.3vmax;
+    height: 3.5vmax;
+    border-radius: 6px;
+    background-color: rgb(226, 130, 6);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15vmax;
+    margin-top: 2vmax;
+}
+.main > .page > .page2 > .left3 > nav >  button{
+    padding: 6px;
+    width: 10.3vmax;
+    height: 3.5vmax;
+    background :none;
+    margin-left: 29vmax;
+    position: absolute;
+    top: 29vmax;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+}
+.main > .page > .page2 > .left3 > nav > :hover {
+    background-color: rgba(2, 118, 118, 0.995);
+    color: #fff;
+    /* border: initial; */
+}
+.main > .page > .page2 > .right > img {
+    width: 40vmax;
+    margin-top: -28vmax;
+    margin-left: 60vmax;
+}
+.main > .page > .page2 > .right >nav >  img {
+    padding-top: -53vmax;
+
+    margin-left: 60vmax;
+}
+.main > .page > .page2 > .right> img {
+    width: 40vmax;
+
+}
+.main2{
+    width: 100%;
+    height: 180%;
+}
+.main > .page > .page2 > .right> .right2> .rock {
+
+    margin-top: -2vmax;
+    margin-left: 14vmax;
+}
+
+.main > .page > .page2 > .right> .right2> :hover {
+    color: #fff;
+}
+.main > .page > .page2 > .right> .right2> .rock2 {
+margin-left: 8vmax;
+margin-top: -2vmax;
+}
+
+.main > .page > .page2 > .right> .right2> .rock3 {
+
+    margin-left: 8vmax;
+    margin-top: -2vmax;
+}
+
+.main > .page > .page2 > .right> .right2> .rock4 {
+
+    margin-left: 8vmax;
+    margin-top: -2vmax;
+}
+.main > .page > .page2 > .right> .right2> .rock5{
+
+    margin-left: 8vmax;
+    margin-top: -2vmax;
+}
+.main2 > .left > h1{
+    font-size: 15px;
+    font-family: "Arial";
+    margin-top: 12vmax;
+    color: rgb(29, 123, 29);
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-left: 8vmax;
+}
+.main2 > .left > nav > h2 {
+
+    font: 900;
+    font-family: "Arial";
+    font-size: 48px;
+    color: rgb(1, 62, 1);
+    margin-left: 7vmax;
+    margin-top: 5px;
+}
+.main2 > .left > nav > span > h3 {
+
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Arial";
+    color: rgb(255, 128, 0);
+    margin-left: 25.5vmax;
+    margin-top: -3.8vmax;
+
+}
+.main2 > .left > h2 {
+    color: rgb(255, 128, 0);
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Arial";
+    margin-left: 7vmax;
+}
+.main2 > .left > p {
+    /* font-weight: 100; */
+    font-family: "Arial";
+    font-size: 17px;
+    margin-left: 7vmax;
+    margin-top: 2vmax;
+    line-height: 1.6vmax;
+    color:rgba(0, 0, 0, 0.625);
+}
+.main2 > .left > .left2 > h1 {
+    font-size: 17.5px;
+    font-family: "Arial";
+    font-weight: 200;
+    margin-top: 4vmax;
+    margin-left: 8vmax;
+}
+.main2 > .left > .left2 > h2 {
+font-size: 17.5px;
+font-family: "Arial";
+font-weight: 200;
+margin-left: 24vmax;
+margin-top: -1.5vmax;
+}
+.main2 > .left > .left2 > h4 {
+    font-size: 20.5px;
+font-family: "Arial";
+font-weight: 100;
+margin-left: 24vmax;
+margin-top: -1.5vmax;
+}
+.main2 > .left > .left2 > h3 {
+    font-size: 18.5px;
+font-family: "Arial";
+font-weight: 200;
+margin-left: 8vmax;
+margin-top: 2.5vmax;
+}
+.main2 > .left > .left2 > h5 {
+
+    font-size: 22px;
+    font-family: "Arial";
+    font-weight: 100;
+    color: rgb(255, 153, 0);
+    margin-top: 5vmax;
+    margin-left: 8vmax;
+}
+
+.main2 > .left >  .left3 {
+    width: 9vmax;
+    height: 1.1px;
+    background-color: rgb(255, 157, 0);
+    margin-left: 7.8vmax;
+    margin-top: 2px;
+}
+.main2 > .right > img {
+    width: 32%;
+    margin-left: 55vmax;
+    margin-top: -20vmax;  
+}
+.main2 > .top {
+    width: 23%;
+    height: 25%;
+    background-color: rgb(243, 242, 242);
+    margin-left: 15vmax;
+    margin-top: 8vmax;
+}
+.main2 > .top > h1 {
+    font-size: 17px;
+    font-weight: 545;
+    font-family: "Arial";
+    color: rgb(1, 112, 1);
+    margin-left: 2vmax;
+    padding-top: 2vmax;
+}
+.main2 > .top > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.main2 > .top > h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 22px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top > h4 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 2px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top > h5 {
+    font-size: 19px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 3vmax;
+    line-height: 1.4vmax;
+    color: rgb(255, 149, 0);
+}
+.main2 > .top > nav {
+    width: 7vmax;
+    height: 1px;
+    background-color: orange;
+    margin-left: 1.2vmax;
+    margin-top: 5px;
+}
+.main2 > .top2 {
+    width: 23%;
+    height: 25%;
+    background-color: rgb(243, 242, 242);
+    margin-left: 42vmax;
+    margin-top: -21vmax;
+}
+.main2 > .top2 > h1 {
+    font-size: 17px;
+    font-weight: 545;
+    font-family: "Arial";
+    color: rgb(1, 112, 1);
+    margin-left: 2vmax;
+    padding-top: 2vmax;
+    
+}
+.main2 > .top2 > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.main2 > .top2 > h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 22px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top2 > h4 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 2px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top2 > h5 {
+    font-size: 19px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 3vmax;
+    line-height: 1.4vmax;
+    color: rgb(255, 149, 0);
+}
+.main2 > .top2 > nav {
+    width: 7vmax;
+    height: 1px;
+    background-color: orange;
+    margin-left: 1.2vmax;
+    margin-top: 5px;
+}
+.main2 > .top3 {
+    width: 23%;
+    height: 25%;
+    background-color: rgb(243, 242, 242);
+    margin-left: 69vmax;
+    margin-top: -21vmax;
+}
+.main2 > .top3> h1 {
+    font-size: 17px;
+    font-weight: 545;
+    font-family: "Arial";
+    color: rgb(1, 112, 1);
+    margin-left: 2vmax;
+    padding-top: 2vmax;
+    
+}
+.main2 > .top3 > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.main2 > .top3 > h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 22px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top3 > h4 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 2px;
+    line-height: 1.4vmax;
+    
+}
+.main2 > .top3 > h5 {
+    font-size: 19px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 25px;
+    padding-top: 3vmax;
+    line-height: 1.4vmax;
+    color: rgb(255, 149, 0);
+}
+.main2 > .top3 > nav {
+    width: 7vmax;
+    height: 1px;
+    background-color: orange;
+    margin-left: 1.2vmax;
+    margin-top: 5px;
+}
+.main3{
+    width: 100%;
+    height: 80%;
+}
+.main3 > .left > img{
+width: 30vmax;
+margin-left: 13vmax;
+margin-top: -8vmax;
+}
+.main3 > .right > h1{
+    margin-left:49vmax ;
+    font-size: 18px;
+    font-family: "Arial";
+    font-weight:540;
+    color: green;
+    margin-top: -30vmax;
+    letter-spacing: 1.4px;
+}
+.main3 > .right > h2{
+ font-size: 43px; 
+ font-weight: 600;  
+ margin-left: 49vmax;
+ font-family: "Arial";
+ margin-top: 25px;
+ color: rgb(0, 52, 0);
+}
+.main3 > .right > h3{
+
+    font-size: 47px;
+    font-weight: 600;
+    font-family: "Arial";
+    color: rgb(255, 132, 0);
+    margin-left: 49vmax;
+}
+.main3 > .right > p{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 49vmax;
+    color: rgba(0, 0, 0, 0.73);
+    line-height: 1.5vmax;
+    margin-top: 1.5vmax;
+
+}
+.main3 > .right > h4 {
+    font-size: 15px;
+    font-weight: 100;
+    font-family:Arial ;
+    color: rgba(0, 0, 0, 0.744);
+    margin-top: 3vmax;
+    margin-left: 49vmax;
+    line-height: 1.3vmax;
+
+}
+.main3 > .right > nav {
+    width: 2px;
+    height: 9vmax;
+    background-color: black;
+    margin-left: 48vmax;
+    margin-top: -9vmax;
+}
+.main3 > .right > img {
+    width: 65px;
+    margin-left: 50vmax;
+    margin-top: 2vmax;
+}
+.main3 > .right > h5 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Arial";
+    margin-left: 55vmax;
+    margin-top: -3vmax;
+}
+.main3 > .right > h6 {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.832);
+    margin-left: 55vmax;
+    font-family: "Arial";
+}
+.main4{
+    width: 100%;
+    height: 90%;
+    background-color: rgba(5, 57, 57, 0.988);
+}
+.main4 > .left > h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: "Arial";
+    font-weight: 500;
+    padding-top: 8vmax;
+    margin-left: 10vmax;
+}
+.main4 > .left > img{
+    background:none;
+    margin-top: 1.5vmax;
+    margin-left: 10vmax;
+    width: 3.5vmax;
+}
+.main4 > .left > h2{
+color: #fff;
+font-size: 25px;
+font-family: "Arial";
+margin-left: 14vmax;
+position: relative;
+margin-top: -2.8vmax;
+
+}
+.main4 > .left > p{
+    color: #fff;
+    font-family: "Arial";
+    margin-left: 14vmax;
+    font-weight: 100;
+    margin-top: 13px;
+    line-height: 1.5vmax;
+}
+.main4 > .left > .left2 > img{
+    width: 3.5vmax;
+    margin-left: 10vmax;
+}
+.main4 > .left > .left2 > h2 {
+    color: #fff;
+    margin-left: 14vmax;
+font-family: "gilroy";
+font-weight: 600;
+font-size: 1.9vmax;
+margin-top: -3vmax;
+}
+.main4 > .left >.left2 >  p{
+    color: #fff;
+    font-family: "Arial";
+    margin-left: 14vmax;
+    font-weight: 100;
+    margin-top: 13px;
+    line-height: 1.5vmax;
+}
+.main4 > .left3 > img{
+    width: 3.5vmax;
+    margin-left: 10vmax;
+}
+.main4 > .left3 > h2 {
+    color: #fff;
+    margin-left: 14vmax;
+font-family: "Arial";
+font-weight: 600;
+font-size: 1.8vmax;
+margin-top: -3vmax;
+}
+.main4 > .left3 > p{
+    color: #fff;
+    font-family: "Arial";
+    margin-left: 14vmax;
+    font-weight: 100;
+    margin-top: 13px;
+    line-height: 1.5vmax;
+}
+.main4 > .center > h2{
+    color: #fff;
+    margin-top: -23.8vmax;
+    font-weight: 400;
+    font-family: "Arial";
+    margin-left: 35vmax;
+    
+}
+
+.main4 > .center > h3{
+    color: #fff;
+    font-size: 1.2vmax;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 35.5vmax;
+    line-height: 2.3vmax;
+    margin-top: 2vmax;
+}
+.main4 > .right > h1{
+    color: #fff;
+    font-size: 3vmax;
+    font-family: "Arial";
+    margin-left: 60vmax;
+    margin-top:-18vmax ;
+}
+.main4 > .right > p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Arial";
+    margin-left: 60vmax;
+    margin-top: 1.3vmax;
+    line-height: 1.4vmax;
+}
+.main4 > .right > img{
+    width: 28vmax;
+    margin-left: 60vmax;
+}
+.main5{
+    width: 100%;
+    height: 120%;
+}
+.main5 > .center > h1{
+    font-family: Arial;
+    font-weight: 550;
+    color: rgb(66, 139, 66);
+    letter-spacing: 1.7px;
+    font-size: 18px;
+    margin-left: 48vmax;
+    margin-top: -36vmax;
+
+}
+.main5 > .center > h2{
+    font-size: 3.2vmax;
+    font-weight: 550;
+    font-family: "Arial";
+    color: rgb(1, 54, 1);
+    margin-left: 20vmax;
+}
+.main5 > .center > h3{
+    font-size: 3.4vmax;
+    font-weight: 550;
+    color: rgb(255, 132, 0);
+    margin-left: 56vmax;
+    margin-top:-4vmax;
+    font-family: "Arial";
+}
+.main5 > .center > .left {
+    width: 23vmax;
+    height: 32vmax;
+    background-color:rgb(234, 233, 233);
+    margin-left: 13.6vmax;
+    margin-top: 2vmax;
+}
+.main5 > .center > .left > h3 {
+    font-size: 26px;
+    font-family: "Arial";
+    font-weight:550 ;
+    color: rgba(1, 110, 1, 0.632);
+    padding-top: 2vmax;
+    padding-left: 2vmax;
+}
+.main5 > .center > .left > h4 {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: 100;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}
+.main5 > .center > .left > nav {
+    width: 19vmax;
+    height: 1.2px;
+    background-color:rgba(0, 0, 0, 0.127);
+    margin-left: 1.2vmax;
+    margin-top: 1.5vmax;
+}
+.main5 > .center > .left > h1 {
+
+  font-size: 3vmax;  
+  color: rgb(1, 42, 1);
+  margin-left: 2vmax;
+  font-family: "Arial";
+  margin-top: 1.6vmax;
+}
+.main5 > .center > .left > p {
+
+    font-family: "Arial";
+    font-weight: 100;
+    margin-left: 2vmax;
+    line-height: 2.3vmax;
+}
+.main5 > .center > .left >  .left2 > button{
+    padding: 8px;
+    width:10vmax;
+    height: 3vmax;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5vmax;
+    margin-top: 2vmax;
+}
+.main5 > .center > .left >  .left2 > .center2{
+    width: 23vmax;
+    height: 32vmax;
+    background-color:rgb(234, 233, 233);
+    margin-left: 25vmax;
+    margin-top: -27.4vmax;
+}
+
+.main5 > .center > .left >  .left2 > .center2 > h3{
+    font-size: 26px;
+    font-family: "Arial";
+    font-weight:550 ;
+    color: rgba(1, 110, 1, 0.632);
+    padding-top: 2vmax;
+    padding-left: 2vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 > h4{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: 100;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}      
+.main5 > .center > .left >  .left2 > .center2 > nav{
+    width: 19vmax;
+    height: 1.2px;
+    background-color:rgba(0, 0, 0, 0.127);
+    margin-left: 1.2vmax;
+    margin-top: 1.5vmax;
+}
+
+.main5 > .center > .left >  .left2 > .center2 > h1{
+    font-size: 3vmax;  
+    color: rgb(1, 42, 1);
+    margin-left: 2vmax;
+    font-family: "Arial";
+    margin-top: 1.6vmax;
+  }
+  .main5 > .center > .left >  .left2 > .center2 > p{
+
+    font-family: "Arial";
+    font-weight: 100;
+    margin-left: 2vmax;
+    line-height: 2.3vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  button{
+    padding: 8px;
+    width:10vmax;
+    height: 3vmax;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5vmax;
+    margin-top: 2vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4{
+    width: 23vmax;
+    height: 32vmax;
+    background-color:rgb(234, 233, 233);
+    margin-left: 25vmax;
+    margin-top: -27.4vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > h3{
+    font-size: 26px;
+    font-family: "Arial";
+    font-weight:550 ;
+    color: rgba(1, 110, 1, 0.632);
+    padding-top: 2vmax;
+    padding-left: 2vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > h4{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: 100;
+    margin-left: 2vmax;
+    margin-top: 1.5vmax;
+}  
+
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > nav{
+width: 19vmax;
+height: 1.2px;
+background-color:rgba(0, 0, 0, 0.127);
+margin-left: 1.2vmax;
+margin-top: 1.5vmax;
+}
+
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > h1{
+
+    font-size: 3vmax;  
+    color: rgb(1, 42, 1);
+    margin-left: 2vmax;
+    font-family: "Arial";
+    margin-top: 1.6vmax;
+  }
+
+
+  .main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > p{
+  font-family: "Arial";
+  font-weight: 100;
+  margin-left: 2vmax;
+  line-height: 2.3vmax;
+}
+.main5 > .center > .left >  .left2 > .center2 >.center3 >  .center4 > .center5 > button{
+
+    padding: 8px;
+    width:10vmax;
+    height: 3vmax;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5vmax;
+    margin-top: 2vmax;
+}
+.main6{
+    width: 100%;
+    height: 110%;
+}
+
+.main6 > .center> h4 {
+font-size: 25px;
+font-family: "cambria math";
+color: rgba(0, 128, 0, 0.812);
+font-weight: 100;
+margin-top: 8vmax;
+margin-left: 45vmax;
+}
+.main6  > .center > h1 {
+    font-size:2.9vmax;
+    font-family: "Arial";
+    font-weight: 550;
+    margin-left: 35vmax;
+}
+.main6  > .center > h2 {
+    font-size: 3vmax;
+    font-family: "Arial";
+    color: rgb(255, 153, 0);
+    margin-left: 50vmax;
+    margin-top: -3.3vmax;
+}
+
+.main6  > .center > .rock {
+
+    width: 23.5vmax;
+    height: 23.5vmax;
+    margin-left: 15vmax;
+    margin-top: 4vmax;
+}
+.main6  > .center > .rock2 {
+
+    width: 23.5vmax;
+    height: 23.5vmax;
+    margin-left: 2vmax;
+    margin-top: 4vmax;
+}
+
+.main6  > .center > .rock3 {
+
+    width: 23.5vmax;
+    height: 23.5vmax;
+    margin-left: 2vmax;
+    margin-top: 4vmax;
+}
+.main6 > .left2 > h3 {
+    font-family: "Cambria math";
+    font-weight: 550;
+    margin-left: 15vmax;
+    font-size: 1.5vmax;
+}
+.main6 > .left2 > h4 {
+    font-size: 1.3vmax;
+    font-family: "cambria math";
+    font-weight: 100;
+    margin-left: 15vmax;
+    margin-top: 1.1px;
+}
+.main6 > .left2 > h5 {
+
+    font-size: 1.2vmax;
+    font-family: "cambria math";
+    margin-left: 15vmax;
+}
+.main6 > .left3 > h3 {
+    font-family: "Cambria math";
+    font-weight: 550;
+    margin-left: 42vmax;
+    font-size: 1.5vmax;
+    margin-top: -4.8vmax;
+}
+.main6 > .left3 > h4 {
+    font-size: 1.3vmax;
+    font-family: "cambria math";
+    font-weight: 100;
+    margin-left: 42vmax;
+    margin-top: 1.1px;
+}
+.main6 > .left3 > h5 {
+    font-size: 1.2vmax;
+    font-family: "cambria math";
+    margin-left: 42vmax;
+}
+.main6 > .left4 > h3 {
+    font-family: "Cambria math";
+    font-weight: 550;
+    margin-left: 66.6vmax;
+    font-size: 1.5vmax;
+    margin-top: -4.8vmax;
+} 
+
+.main6 > .left4> h4 {
+    font-size: 1.3vmax;
+    font-family: "cambria math";
+    font-weight: 100;
+    margin-left: 67vmax;
+    margin-top: 1.1px;
+}
+.main6 > .left4 > h5 {
+    font-size: 1.2vmax;
+    font-family: "cambria math";
+    margin-left: 67vmax;
+    
+} 
+.main7{
+    width: 100%;
+    height: 60%;
+    background-color:rgba(1, 73, 73, 0.995);
+}
+
+.main7 > .left > h1 {
+    margin-left: 19vmax;
+padding-top: 10vmax;
+    font-size: 50px;
+    font-family: "Arial";
+    color:rgb(255, 128, 0);
+}
+.main7 > .left > h2 {
+margin-left: 45vmax;
+margin-top: -3.6vmax;
+    font-size: 50px;
+    font-family: "Arial";
+    color:rgb(248, 246, 245);}
+
+    .main7 > .left > h3{
+        font-size: 3.5vmax;
+        font-family: "Arial";
+        color: #fff;
+        font-weight: 500;
+        padding-left: 25vmax;
+    }
+    .main7 > .left > .left2 > button{
+
+        padding: 6px;
+        width: 8vmax;
+        height: 3.3vmax;
+        background-color: rgb(255, 166, 0);
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        margin-left: 40vmax;
+        margin-top: 3vmax;
+        border-radius: 6px;
+    }
+.main8{
+    width: 100%;
+    height: 70%;   
+}
+.main8 > .left > img {
+    width: 9vmax;
+    margin-top: 5vmax;
+    margin-left: 12vmax;
+}
+.main8 > .left > h1 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 15vmax;
+    line-height: 2.5vmax;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.651);
+}
+.main8 > .left2 > h1 {
+    font-family: "Arial";
+    color: rgb(25, 61, 69);
+    margin-left: 35vmax;
+    margin-top: -15vmax;
+    font-weight: 550;
+    font-size: 25px;
+}
+.main8 > .left2 > h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 35vmax;
+    line-height: 2.5vmax;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.651);
+}
+.main8 > .left3 > h1 {
+    font-family: "Arial";
+    color: rgb(25, 61, 69);
+    margin-left: 50vmax;
+    margin-top: -14.3vmax;
+    font-weight: 550;
+    font-size: 25px;
+}
+.main8 > .left3 > h2 {
+font-size: 16px;
+font-weight: 100;
+margin-left: 50vmax;
+line-height: 2.5vmax;
+font-family: "Arial";
+color: rgba(0, 0, 0, 0.651);
+}
+.main8 > .left4 > h1 {
+    font-family: "Arial";
+    color: rgb(25, 61, 69);
+    margin-left: 65vmax;
+    margin-top: -14.3vmax;
+    font-weight: 550;
+    font-size: 25px;
+}
+.main8 > .left4 > h2 {
+    font-size: 16px;
+font-weight: 100;
+margin-left: 65vmax;
+line-height: 2.5vmax;
+font-family: "Arial";
+color: rgba(0, 0, 0, 0.651);
+}
+.main8 > .left5> h1 {
+    font-family: "Arial";
+    color: rgb(25, 61, 69);
+    margin-left: 78vmax;
+    margin-top: -14.3vmax;
+    font-weight: 550;
+    font-size: 25px;
+}
+.main8 > .left5 > h2 {
+    font-size: 16px;
+font-weight: 100;
+margin-left: 80vmax;
+line-height: 2.5vmax;
+font-family: "Arial";
+color: rgba(0, 0, 0, 0.651);
+}
